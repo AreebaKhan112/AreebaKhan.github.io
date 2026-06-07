@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Areeba Khan — Data Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── HERO ── -->
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Data Analyst & Storyteller</p>
+      <h1 class="hero-name">Areeba<br /><em>Khan</em></h1>
+      <p class="hero-tagline">Turning numbers into insights</p>
+      <div class="hero-links">
+        <a href="https://github.com/AreebaKhan112" target="_blank" rel="noopener" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          GitHub
+        </a>
+        <a href="mailto:areebakhan.nemat@gmail.com" class="btn btn-ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          Contact
+        </a>
+        <a href="https://www.linkedin.com/in/areeba-khan-4478a22b5/" target="_blank" rel="noopener" class="btn btn-ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+    <div class="hero-deco" aria-hidden="true">
+      <div class="deco-ring deco-ring--1"></div>
+      <div class="deco-ring deco-ring--2"></div>
+      <div class="deco-ring deco-ring--3"></div>
+      <div class="deco-grid"></div>
+    </div>
+  </header>
+
+  <!-- ── PROJECTS ── -->
+  <main class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Projects</span>
+        <!-- Filter buttons -->
+         
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="sql">SQL</button>
+          <button class="filter" data-filter="python">Python</button>
+          <button class="filter" data-filter="viz">Visualization</button>
+        </div>
+      </div>
+    
+      <div class="grid" id="grid">
+
+        <!-- ── PROJECT CARDS ── -->
+        <!-- To add a new project: copy one <article> block, update the content, and change data-tags -->
+
+        <article class="card" data-tags="python sql viz">
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-icon">📉</span>
+              <span class="card-badge badge--purple">Python · SQL · Viz</span>
+            </div>
+            <h2 class="card-title">Walmart Sales Analysis</h2>
+            <p class="card-preview">Transforms 9.9K+ raw retail transaction records into actionable business insights </p>
+          </div>
+          <div class="card-footer">
+            <div class="tools">
+              <span class="tool">Python</span>
+              <span class="tool">Power BI</span>
+              <span class="tool">SQL</span>
+              <span class="tool">Excel</span>
+            </div>
+            <span class="card-chevron" aria-hidden="true">↓</span>
+          </div>
+          <div class="card-expand" hidden>
+            <p>An end-to-end data analytics project performing sales and profit analysis on a Walmart retail dataset. The workflow covers raw data cleaning and standardization in Python, complex business question exploration using SQL (SQLite), and the design of an interactive executive dashboard in Power BI.</p>
+            <div class="expand-links">
+              <a href="https://github.com/AreebaKhan112/Walmart-Sales-Data-Analysis" target="_blank" rel="noopener" class="expand-btn expand-btn--gh">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                View on GitHub
+              </a>
+              
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="sql viz python">
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-icon">📊</span>
+              <span class="card-badge badge--teal">SQL · Python · Viz</span>
+            </div>
+            <h2 class="card-title">Customer Shopping Behaviour Analysis</h2>
+            <p class="card-preview">An end-to-end data analytics project analyzing retail customer shopping behavior to identify the key factors driving revenue and sales..</p>
+          </div>
+          <div class="card-footer">
+            <div class="tools">
+              <span class="tool">SQL</span>
+              <span class="tool">Power BI</span>
+              <span class="tool">Excel</span>
+              <span class="tool">Python</span>
+            </div>
+            <span class="card-chevron" aria-hidden="true">↓</span>
+          </div>
+          <div class="card-expand" hidden>
+            <p> This project simulates a real-world data analytics workflow for a retail business. The objective was to clean and analyze a customer shopping dataset to determine which demographic factors — specifically gender, subscription status, and age group — have the greatest influence on revenue generation. The insights from this analysis are intended to help the business make more informed decisions around marketing, customer retention, and product strategy.</p>
+            <div class="expand-links">
+              <a href="https://github.com/AreebaKhan112/Customer_shopping_behaviour_Analysis" target="_blank" rel="noopener" class="expand-btn expand-btn--gh">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="python viz">
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-icon">🎥</span>
+              <span class="card-badge badge--coral">Python · Viz</span>
+            </div>
+            <h2 class="card-title">Movie Industry Revenue Correlation Analysis</h2>
+            <p class="card-preview">Analyzing correlation between various factors that affect movies' success.</p>
+          </div>
+          <div class="card-footer">
+            <div class="tools">
+              <span class="tool">Python</span>
+              <span class="tool">Excel</span>
+            </div>
+            <span class="card-chevron" aria-hidden="true">↓</span>
+          </div>
+          <div class="card-expand" hidden>
+            <p>An Exploratory Data Analysis (EDA) project investigating the underlying factors that drive financial success in the film industry. Utilizing a Kaggle dataset spanning four decades of cinematic data, this project cleans up raw features and tests structural hypotheses by calculating and visualizing statistical correlation coefficients across key movie metrics.</p>
+            <div class="expand-links">
+              <a href="https://github.com/AreebaKhan112/MovieCorrelationProject" target="_blank" rel="noopener" class="expand-btn expand-btn--gh">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                View on GitHub
+              </a>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="sql">
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-icon">🏘️</span>
+              <span class="card-badge badge--amber">SQL</span>
+            </div>
+            <h2 class="card-title"> Nashville Housing Data Cleaning</h2>
+            <p class="card-preview">Cleaning and preprocessing raw real estate records in SQL </p>
+          </div>
+          <div class="card-footer">
+            <div class="tools">
+              <span class="tool">SQL</span>
+              <span class="tool">Excel</span>
+            </div>
+            <span class="card-chevron" aria-hidden="true">↓</span>
+          </div>
+          <div class="card-expand" hidden>
+            <p>A foundational data analytics project focused on the essential phase of data preprocessing: Data Cleaning. Using a raw dataset of property sales in Nashville, Tennessee, this project demonstrates how to use SQL Server queries to transform unstructured, messy raw data into a clean, normalized format optimized for downstream analysis.</p>
+            <div class="expand-links">
+              <a href="https://github.com/AreebaKhan112/Nashville-housing-data-cleaning" target="_blank" rel="noopener" class="expand-btn expand-btn--gh">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                View on GitHub
+              </a>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-tags="python viz">
+          <div class="card-body">
+            <div class="card-top">
+              <span class="card-icon">🧬</span>
+              <span class="card-badge badge--purple">Python · Viz</span>
+            </div>
+            <h2 class="card-title">COVID Data Analysis</h2>
+            <p class="card-preview">This project analyzes global COVID-19 data using SQL and visualizes key insights through an interactive Tableau dashboard.</p>
+          </div>
+          <div class="card-footer">
+            <div class="tools">
+              <span class="tool">Python</span>
+              <span class="tool">Tableau</span>
+              <span class="tool">Excel</span>
+            </div>
+            <span class="card-chevron" aria-hidden="true">↓</span>
+          </div>
+          <div class="card-expand" hidden>
+            <p>This project focuses on the end-to-end data analysis process—from raw data exploration using SQL to delivering insights via an interactive Tableau dashboard. By analyzing global COVID-19 datasets, this study explores infection rates, mortality percentages, and the geographical progression of the pandemic.</p>
+            <div class="expand-links">
+              <a href="https://github.com/AreebaKhan112/COVID-data-analysis/tree/main" target="_blank" rel="noopener" class="expand-btn expand-btn--gh">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                View on GitHub
+              </a>
+              
+            </div>
+          </div>
+        </article>
+        
+  </main>
+    
+  <!-- ── FOOTER ── -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2024 Areeba Khan &nbsp;·&nbsp; <a href="https://github.com/AreebaKhan112" target="_blank" rel="noopener">github.com/AreebaKhan112</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
